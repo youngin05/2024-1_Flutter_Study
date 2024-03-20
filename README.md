@@ -42,16 +42,16 @@
   <td align="center"><a href="https://github.com/jooya38"><img src="https://github.com/jhj04/2023-2_study_flutting_masters/assets/129846546/83f31e01-77ad-42fc-bb4d-eadf7730a053" width="100px;" alt=""/><br /><sub><b>황연주</b></sub></a><br /><a href="https://github.com/jooya38" title="Code">🐿️</a></td>
 </table>
 <table>
-  <td align="center"><a href="https://github.com/dasom040819"><br /><sub><b>강은성</b></sub></a><br />✏️</a></td>
-    <td align="center"><a href="https://github.com/dasom040819"><br /><sub><b>고다연</b></sub></a><br />✏️</a></td>
-      <td align="center"><a href="https://github.com/dasom040819"><br /><sub><b>권상혁</b></sub></a><br />✏️</a></td>
-        <td align="center"><a href="https://github.com/dasom040819"><br /><sub><b>김영인</b></sub></a><br />✏️</a></td>
-        <td align="center"><a href="https://github.com/dasom040819"><br /><sub><b>김재인</b></sub></a><br />✏️</a></td>
+  <td align="center"><a href="https://github.com/klaqwe1"><br /><sub><b>강은성</b></sub></a><br />✏️</a></td>
+    <td align="center"><a href="https://github.com/Kokodaks"><br /><sub><b>고다연</b></sub></a><br />✏️</a></td>
+      <td align="center"><a href="https://github.com/SanyoEntertain"><br /><sub><b>권상혁</b></sub></a><br />✏️</a></td>
+        <td align="center"><a href="https://github.com/youngin05"><br /><sub><b>김영인</b></sub></a><br />✏️</a></td>
+        <td align="center"><a href="https://github.com/1004jaein"><br /><sub><b>김재인</b></sub></a><br />✏️</a></td>
 </table>
 <table>
-          <td align="center"><a href="https://github.com/dasom040819"><br /><sub><b>박선우</b></sub></a><br />✏️</a></td>
-          <td align="center"><a href="https://github.com/dasom040819"><br /><sub><b>류한솔</b></sub></a><br />✏️</a></td>
-          <td align="center"><a href="https://github.com/dasom040819"><br /><sub><b>이영욱</b></sub></a><br />✏️</a></td>
-          <td align="center"><a href="https://github.com/dasom040819"><br /><sub><b>이준영</b></sub></a><br />✏️</a></td>
+          <td align="center"><a href="https://github.com/shark820"><br /><sub><b>박선우</b></sub></a><br />✏️</a></td>
+          <td align="center"><a href="https://github.com/105464"><br /><sub><b>류한솔</b></sub></a><br />✏️</a></td>
+          <td align="center"><a href="https://github.com/Poiurity"><br /><sub><b>이영욱</b></sub></a><br />✏️</a></td>
+          <td align="center"><a href="https://github.com/leejun00416"><br /><sub><b>이준영</b></sub></a><br />✏️</a></td>
 </table>
 </div>

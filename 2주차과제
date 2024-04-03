@@ -1,0 +1,140 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context){
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Row(
+            children: [
+              Text(
+                "정릉동3가",
+                style:TextStyle(color:Colors.black),
+              ),
+              Icon(Icons.arrow_drop_down, color:Colors.black,)
+            ],
+          ),
+          actions: [
+            IconButton(onPressed: (){}, icon: Icon(Icons.account_circle_outlined), color:Colors.black,),
+            IconButton(onPressed: (){}, icon: Icon(Icons.search), color:Colors.black,),
+            IconButton(onPressed: (){}, icon: Icon(Icons.notifications_none_outlined), color:Colors.black,),
+          ],
+          backgroundColor: Colors.white,
+        ),
+        body: Column(
+          children: [
+            Container(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Text('모임 둘러보기'),
+                  Text('양재천 같이 달려요'),
+                  Text('테니스 치는 사람들'),
+                  Text('22년생 호랑이 육아맘 소통'),
+                ]
+              )
+            ),
+            Container(
+              child: Row(
+                children: [
+                  Container(
+                    padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+                    width: 200,
+                  )
+                ]
+              )
+            ),
+            Container(
+              padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+              //alignment: Alignment.topLeft,
+              child: Column(
+                children: [
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Image.asset('assets/canon.jpg', width:250),
+                        Container(
+                          padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+                          width: 400,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children:[
+                              Text('캐논 DSLR 100D (단렌즈, 충전기 16기가SD 포함)', style:TextStyle(fontWeight:FontWeight.bold, fontSize:20)),
+                              Text('성동구 행당동.끌올 10분 전'),
+                              Text('210,000원', style:TextStyle(fontWeight: FontWeight.bold, fontSize:15)),
+                              Row(
+                                mainAxisAlignment:MainAxisAlignment.end,
+                                children:[
+                                  Icon(Icons.favorite_border),
+                                  Text('4'),
+                                ],
+                              )
+                            ],
+                          )
+                        )
+                      ],
+                  ),
+                ],
+              )
+            ),
+            Container(
+                padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+                //alignment: Alignment.topLeft,
+                child: Column(
+                  children: [
+                    Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Image.asset('assets/delicious.jpg', width:250),
+                        Container(
+                            padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+                            width: 400,
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children:[
+                                Text('맛있어요', style:TextStyle(fontWeight:FontWeight.bold, fontSize:20)),
+                                Text('성동구 행당동.끌올 10분 전'),
+                                Text('4,000원', style:TextStyle(fontWeight: FontWeight.bold, fontSize:15)),
+                                Row(
+                                  mainAxisAlignment:MainAxisAlignment.end,
+                                  children:[
+                                    Icon(Icons.favorite_border),
+                                    Text('4'),
+                                  ],
+                                )
+                              ],
+                            )
+                        )
+                      ],
+                    ),
+                  ],
+                )
+            )
+          ],
+        ),
+        bottomNavigationBar: BottomAppBar(
+          child: Container(
+            height: 70,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Icon(Icons.access_alarm),
+                Icon(Icons.add_box),
+                Icon(Icons.add_card),
+                Icon(Icons.abc),
+                Icon(Icons.ac_unit_sharp),
+              ]
+            )
+          )
+        ),
+      )
+    );
+  }
+}
